@@ -1,0 +1,34 @@
+/* Spacings */
+html {
+  --tube-max-width-primary: 41rem;
+  --tube-width-spacer: 1.5625rem;
+  --tube-width-spacer-half: calc(0.5 * var(--tube-width-spacer));
+  --tube-height-spacer: 1.3125rem;
+  --tube-height-spacer-half: calc(0.5 * var(--tube-height-spacer));
+  --tube-border-radius: 0.625rem;
+  
+  --tube-width-spacer-flex: var(--tube-width-spacer-half);
+  --tube-height-spacer-flex: var(--tube-height-spacer-half);
+}
+
+@media( min-width: 750px ) {
+  html {
+    --tube-width-spacer-flex: var(--tube-width-spacer);
+    --tube-height-spacer-flex: var(--tube-height-spacer);
+  }
+}
+
+
+/* Fonts */
+html {
+  --tube-font-family: "Roboto";
+  --tube-font-weight-black: 900;
+  --tube-font-weight-bold: 700;
+  --tube-font-weight-medium: 500;
+  --tube-font-weight-regular: 400; 
+
+  --tube-font-size-x-large: 1.25rem;
+  --tube-font-size-large: 1rem;
+  --tube-font-size-copy: 0.9375rem;
+  --tube-font-size-detail: 0.875rem;
+}

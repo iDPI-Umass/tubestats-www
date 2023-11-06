@@ -1,0 +1,26 @@
+production-www:
+  namespace: tubestats
+  bucket-sync:
+    directory: build
+    bucket: tubestats.org
+  buckets:
+    - name: tubestats.org
+      website:
+        index: index.html
+        error: index.html
+    - name: www.tubestats.org
+      redirect: tubestats.org
+  edge:
+    name: www
+    certificate:
+      verification: tubestats.org
+    origins:
+      - domain: tubestats.org.s3-website-us-east-1.amazonaws.com
+        protocol: http     
+    aliases:
+      - tubestats.org
+      - www.tubestats.org
+    ttl:
+      default: 86400 # 1 day
+      min: 0
+      max: 31536000 # 1 year
