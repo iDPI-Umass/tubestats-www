@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@dashkite/joy": "^0.3.16",
-    "@shoelace-style/shoelace": "2.3.0"
+    "@shoelace-style/shoelace": "2.3.0",
+    "chart.js": "^4.4.0"
   }
 }
