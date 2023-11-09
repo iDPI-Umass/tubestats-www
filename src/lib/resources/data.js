@@ -30,10 +30,8 @@ const getDataIndex = async function () {
 }
 
 const getSampleData = async function ( date ) {
-    // console.log(date);
     let opts = get(optionsStore);
     const file = opts[date];
-    // console.log(file);
     return await getJSON( file );
 };
 
