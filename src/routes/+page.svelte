@@ -24,9 +24,9 @@
     <SampleSummary></SampleSummary>
     <DataDisplay></DataDisplay>
   </section>
-  <section bind:this={bottomsection} class="bottomsection">
-    <ModelExplorer></ModelExplorer>
-  </section>
+<!--  <section bind:this={bottomsection} class="bottomsection">-->
+<!--    <ModelExplorer></ModelExplorer>-->
+<!--  </section>-->
 </main>
 
 
