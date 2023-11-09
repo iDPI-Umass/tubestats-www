@@ -28,9 +28,9 @@
     <SampleSummary></SampleSummary>
     <DataDisplay></DataDisplay>
   </section>
-  <section bind:this={bottomsection} class="bottomsection">
-    <ModelExplorer></ModelExplorer>
-  </section>
+<!--  <section bind:this={bottomsection} class="bottomsection">-->
+<!--    <ModelExplorer></ModelExplorer>-->
+<!--  </section>-->
 </main>
 
 
@@ -51,14 +51,14 @@
     display: flex;
     flex-direction: column;
     /*padding: 1rem;*/
-    flex: 1 1 75%;
+    flex: 1 1 100%;
     overflow-y: scroll;
   }
 
-  main .bottomsection {
-    padding: 1rem;
-    flex: 1 1 25%;
-    overflow-y: scroll;
-    background-color:#f1b844
-  }
+  /*main .bottomsection {*/
+  /*  padding: 1rem;*/
+  /*  flex: 1 1 25%;*/
+  /*  overflow-y: scroll;*/
+  /*  background-color:#f1b844*/
+  /*}*/
 </style>
