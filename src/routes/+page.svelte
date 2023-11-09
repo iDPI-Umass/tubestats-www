@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import {optionsStore, selectedOption, selectedOptionFile} from "$lib/stores/sample-options.js";
   import {sourceStore} from "$lib/stores/source.js";
-  import DataDisplay from "$lib/components/DataDisplay.svelte";
+  import DataDisplay from "$lib/components/DataDisplay/DataDisplay.svelte";
   import ModelExplorer from "$lib/components/ModelExplorer.svelte";
   import { getDataIndex } from "$lib/resources/data.js"
   import SampleSelector from "$lib/components/SampleSelector.svelte";
@@ -44,7 +44,7 @@
     justify-content: flex-start;
     align-items: stretch;
     /*padding: 0.5rem;*/
-    height: calc( 100vh - 6rem);
+    height: calc( 100dvh - 6rem);
   }
 
   main .topsection {

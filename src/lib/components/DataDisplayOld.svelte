@@ -1,6 +1,6 @@
 <script>
     import { sourceStore } from "$lib/stores/source.js";
-    import {onDestroy} from "svelte";
+    import {onDestroy, onMount} from "svelte";
     import Chart from 'chart.js/auto';
 
     let unsubscribeSource;
@@ -26,7 +26,8 @@
     let ageCanvas, ageChart;
     let categoryCanvas, categoryChart;
 
-    unsubscribeSource = sourceStore.subscribe( function (source) {
+    onMount( function () {
+      unsubscribeSource = sourceStore.subscribe( function (source) {
         if (source != null) {
             if (viewsChart != null) {
                 viewsChart.destroy();
@@ -766,6 +767,8 @@
             );
         }
     });
+    });
+    
     onDestroy(() => {
         unsubscribeSource();
     });
@@ -780,50 +783,50 @@
 <div class="charts-wrapper">
     <div class="row">
         <div class="column">
-            <div><canvas bind:this={uploadsCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={uploadsCanvas}></canvas></div>
         </div>
         <div class="column">
-            <div><canvas bind:this={sizeCanvas}></canvas></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column">
-            <div><canvas bind:this={viewsCanvas}></canvas></div>
-        </div>
-        <div class="column">
-            <div><canvas bind:this={likesCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={sizeCanvas}></canvas></div>
         </div>
     </div>
     <div class="row">
         <div class="column">
-            <div><canvas bind:this={durationCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={viewsCanvas}></canvas></div>
         </div>
         <div class="column">
-            <div><canvas bind:this={commentsCanvas}></canvas></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column">
-            <div><canvas bind:this={subscribersCanvas}></canvas></div>
-        </div>
-        <div class="column">
-            <div><canvas bind:this={langCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={likesCanvas}></canvas></div>
         </div>
     </div>
     <div class="row">
         <div class="column">
-            <div><canvas bind:this={musicCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={durationCanvas}></canvas></div>
         </div>
         <div class="column">
-            <div><canvas bind:this={categoryCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={commentsCanvas}></canvas></div>
         </div>
     </div>
     <div class="row">
         <div class="column">
-            <div><canvas bind:this={liveCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={subscribersCanvas}></canvas></div>
         </div>
         <div class="column">
-            <div><canvas bind:this={ageCanvas}></canvas></div>
+            <div class="canvas-wrap"><canvas bind:this={langCanvas}></canvas></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="canvas-wrap"><canvas bind:this={musicCanvas}></canvas></div>
+        </div>
+        <div class="column">
+            <div class="canvas-wrap"><canvas bind:this={categoryCanvas}></canvas></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="canvas-wrap"><canvas bind:this={liveCanvas}></canvas></div>
+        </div>
+        <div class="column">
+            <div class="canvas-wrap"><canvas bind:this={ageCanvas}></canvas></div>
         </div>
     </div>
 </div>
@@ -851,6 +854,10 @@
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
+    }
+    .canvas-wrap {
+      position: relative;
+      height: 15rem;
     }
     canvas{
         padding:1rem
