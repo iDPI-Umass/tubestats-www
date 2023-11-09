@@ -11,7 +11,6 @@
             TubeStats
         </sl-button>
 
-        <SampleSelector></SampleSelector>
 
         <sl-button href="/about" >
             About

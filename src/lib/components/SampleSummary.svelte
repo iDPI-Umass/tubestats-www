@@ -1,6 +1,7 @@
 <script>
     import {sourceStore} from "$lib/stores/source.js";
     import {onDestroy} from "svelte";
+    import SampleSelector from "$lib/components/SampleSelector.svelte";
     let unsubscribeSource;
     let collectionDate, size, queries, verifiedHits, deadLinks;
 
@@ -22,17 +23,20 @@
 
 <section>
     <div class="sample-info-container">
+        <div class="sample-info sample-selector">
+            <SampleSelector></SampleSelector>
+        </div>
         <div class="sample-info">
             <h1>Sample Date</h1>
             <p>{collectionDate ? collectionDate : "..."}</p>
         </div>
         <div class="sample-info">
-            <h1>Estimated Size of YouTube</h1>
-            <p>{size ? size.toLocaleString()+" videos": "..."}</p>
-        </div>
-        <div class="sample-info">
             <h1>Random YouTube Videos Sampled</h1>
             <p>{verifiedHits ? verifiedHits.toLocaleString()+" videos" : "..."}</p>
+        </div>
+        <div class="sample-info">
+            <h1>Estimated Size of YouTube</h1>
+            <p>{size ? size.toLocaleString()+" videos": "..."}</p>
         </div>
     </div>
 </section>
@@ -52,6 +56,9 @@
     div.sample-info {
         flex: 1 1 25%;
         padding: 1rem;
+    }
+    div.sample-selector{
+        vertical-align: middle
     }
 </style>
 

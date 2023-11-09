@@ -36,9 +36,13 @@
 </div>
 
 <style>
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     sl-select {
+        justify-content: center;
         width: 100%;
-        padding: 1rem;
-        vertical-align: middle
     }
 </style>
