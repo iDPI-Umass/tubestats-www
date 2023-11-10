@@ -2,16 +2,16 @@
     import Chart from "./Chart.svelte";
 
     const names = [
-        "views",
-        "likes",
-        "duration",
-        "comments",
         "annual_uploads",
         "cumulative_uploads",
-        "subscribers",
+        "views",
         "whisper_lang",
-        "music",
+        "subscribers",
+        "duration",
+        "likes",
+        "comments",
         "category",
+        "music",
         "live_status",
         "age_limit"
     ];
