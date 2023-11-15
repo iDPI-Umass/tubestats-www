@@ -3,7 +3,7 @@
   import {optionsStore, selectedOption, selectedOptionFile} from "$lib/stores/sample-options.js";
   import {sourceStore} from "$lib/stores/source.js";
   import DataDisplay from "$lib/components/DataDisplay/DataDisplay.svelte";
-  import ModelExplorer from "$lib/components/ModelExplorer.svelte";
+  import ModelExplorer from "$lib/components/ModelExplorer/ModelExplorer.svelte";
   import { getDataIndex } from "$lib/resources/data.js"
   import SampleSummary from "$lib/components/SampleSummary.svelte";
 
@@ -24,9 +24,9 @@
     <SampleSummary></SampleSummary>
     <DataDisplay></DataDisplay>
   </section>
-<!--  <section bind:this={bottomsection} class="bottomsection">-->
-<!--    <ModelExplorer></ModelExplorer>-->
-<!--  </section>-->
+  <section bind:this={bottomsection} class="bottomsection">
+    <ModelExplorer></ModelExplorer>
+  </section>
 </main>
 
 
@@ -53,6 +53,6 @@
     padding: 1rem;
     flex: 1 1 25%;
     overflow-y: scroll;
-    background-color:#f1b844
+    /*background-color:#589ef7*/
   }
 </style>

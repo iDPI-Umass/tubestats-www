@@ -1,7 +1,7 @@
 import {optionsStore} from "$lib/stores/sample-options.js";
 import {get} from "svelte/store";
 
-// const baseURL = "http://localhost:5173/data";
+//const baseURL = "http://localhost:5173/data";
 const baseURL = "https://tubestats.org/data";
 
 const getJSON = async function ( name ) {
