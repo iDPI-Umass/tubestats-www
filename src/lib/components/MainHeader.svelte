@@ -11,9 +11,24 @@
             TubeStats
         </sl-button>
 
-
         <sl-button href="/about" >
             About
+        </sl-button>
+
+        <sl-button href="/data" >
+            Data
+        </sl-button>
+
+        <sl-button href="/cite" >
+            Cite
+        </sl-button>
+
+        <sl-button href="/team" >
+            Team
+        </sl-button>
+
+        <sl-button href="/read" >
+            Read more
         </sl-button>
     </nav>
 
