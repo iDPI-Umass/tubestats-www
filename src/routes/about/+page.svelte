@@ -18,12 +18,11 @@
                 Ryan McGrady, researcher at Media Cloud, led the paper <a href="https://journalqd.org/article/view/4066" target="_blank" rel="noopener noreferrer">Dialing for Videos: A Random Sample of YouTube</a>, with contributions from Kevin Zheng, Rebecca Curran, Jason Baumgartner, and Ethan Zuckerman.
             </p>
             <p>
-                David Harper, from iDPI's development partner <a href="https://pandastrike.com/" target="_blank" rel="noopener noreferrer">Panda Strike</a>, provided technical expertise to quickly bring this project to life.
+                David Harper, from iDPI's development partner <a href="https://pandastrike.com/" target="_blank" rel="noopener noreferrer">Panda Strike</a>, provided technical expertise to quickly bring this project to life. Lucas Ruud provided technical writing expertise to document the project.
             </p>
             <p>
                 <a href="https://github.com/iDPI-Umass/tubestats-www" target="_blank" rel="noopener noreferrer">View source code here</a>
             </p>
-        <h2>Resources</h2>
         <h2>Background</h2>
             <p>
                 YouTube is the second most popular website in the world, second only to Google Search. Not only is it the largest video content sharing platform, but it is also the largest social network on the internet, surpassing Facebook, Instagram, and X. From entertainment and music to news and education, YouTube is an all-encompassing cultural titan. However, despite its popularity, very little is known about the platform’s fundamental characteristics—like the number of videos it hosts, the average views a video gets, or the distribution of languages spoken across the entire site—which require a random sample to calculate.
