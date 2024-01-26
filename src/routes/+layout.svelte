@@ -6,6 +6,8 @@
 
   // Pull in more application specific CSS stylings.
   import "$lib/styles/reset.css";
+  import "$lib/styles/copy.css";
+
   import MainHeader from "$lib/components/MainHeader.svelte";
 
 </script>

@@ -1,5 +1,6 @@
 /* Spacings */
 html {
+  --tube-color-null: #F0F2F5;
   --tube-max-width-primary: 41rem;
   --tube-width-spacer: 1.5625rem;
   --tube-width-spacer-half: calc(0.5 * var(--tube-width-spacer));
@@ -9,8 +10,11 @@ html {
   
   --tube-width-spacer-flex: var(--tube-width-spacer-half);
   --tube-height-spacer-flex: var(--tube-height-spacer-half);
-
+  --tube-color-link: #3A88E2;
+  --tube-color-text: #343434;
+  --tube-color-text-muted: #67778E;
   --tube-color-panel: #FFFFFF;
+  --tube-color-border-panel: #D8DEE6;
   --tube-border-panel: 1px solid #D8DEE6;
   --tube-color-text-menu: #313751;
 }
