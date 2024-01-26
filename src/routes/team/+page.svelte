@@ -1,29 +1,24 @@
 <main>
     <section class="tube-copy">
-
-        <h1>About TubeStats</h1>
-
+        <h1>Our team</h1>
         <div class="logo">
-            <img src="tubestats.png">
+            <img src="idpi.png">
         </div>
+
             <p>
-                TubeStats is an interactive dashboard that provides users with up-to-date information about YouTube based on random sampling. We periodically create a random sample of YouTube big enough to find basic statistics about the site like how many videos it hosts, how many are categorized as music or games, and how many views videos get on average. This is fundamental information about one of the most important websites in the world, and the sort of data that researchers, journalists, and others need in order to properly study the content YouTube hosts.
+                TubeStats is a project from the <a href="https://publicinfrastructure.org" target="_blank" rel="noopener noreferrer">Initiative for Digital Public Infrastructure</a> (iDPI) at the University of Massachusetts Amherst.
             </p>
             <p>
-                This site is an outgrowth of a long research project in the <a href="https://publicinfrastructure.org" target="_blank" rel="noopener noreferrer">Initiative for Digital Public Infrastructure</a> at the University of Massachusetts Amherst. We wanted to study certain kinds of content on YouTube and quickly realized it was impossible to contextualize findings because there was no way to produce a truly random sample of YouTube to use as a basis for comparison.
+                Kevin Zheng, research fellow at the Initiative for Digital Public Infrastructure, is developing and maintaining this website.
             </p>
             <p>
-                A random sample can tell you how representative your sample is. If you find 1,000 instances of a type of video in a study, a random sample can answer "out of how many?" If you rely on YouTube's search or recommendation algorithms to produce a collection of videos, a random sample can help inform how the algorithm is guiding your selection. In short, they’re an essential tool to understand a subject, but can be difficult to obtain.
+                Ryan McGrady, senior researcher at the Initiative for Digital Public Infrastructure, led the paper <a href="https://journalqd.org/article/view/4066" target="_blank" rel="noopener noreferrer">Dialing for Videos: A Random Sample of YouTube</a>, with contributions from Kevin Zheng, Rebecca Curran, Jason Baumgartner, and Ethan Zuckerman.
             </p>
             <p>
-                YouTube is one of the largest and most important websites in the world, but it does not provide a way to produce a random sample or aggregate data from its videos. In addition, videos are more difficult for computers to parse than content from text-based websites. Our random sampling method works to mitigate the challenges of researching YouTube.
+                David Harper, from iDPI's development partner <a href="https://pandastrike.com/" target="_blank" rel="noopener noreferrer">Panda Strike</a>, provided technical expertise to quickly bring this project to life. Lucas Ruud provided technical writing expertise to document the project.
             </p>
-            <p>
-                The primary output of our project was a paper, "<a href="https://journalqd.org/article/view/4066" target="_blank" rel="noopener noreferrer">Dialing for Videos: A Random Sample of YouTube</a>," published in the Journal of Quantitative Description: Digital Media in December 2023. It includes a very thorough analysis of a random sample we produced through our own method in late 2022.
-            </p>
-            <p>
-                By the time we published our paper, however, the data was already a year old. We estimate that more than three billion videos had been uploaded in the interim. We could publish papers with periodic updates, but the timeline of academic publishing is long and people need access to current data. Furthermore, the sampling method we developed for that paper is effective, but too slow and resource intensive to reproduce on a timely basis. For those reasons, we used our paper to validate a second method called "Random Prefix Sampling," proposed by another team <a href="https://doi.org/10.1145/2068816.2068851" target="_blank" rel="noopener noreferrer">back in 2011</a>. It relies on an odd mechanism to work and has more limitations, but we found that a sample it produced was similar enough to ours to be considered random enough for research purposes. With a validated faster method, we are able to provide regular updates via TubeStats.
-            </p>
+        <h1>Contact</h1>
+        <p><a href="mailto:tubestatsidpi@gmail.com">Send us an email</a></p>
     </section>
 
 </main>
