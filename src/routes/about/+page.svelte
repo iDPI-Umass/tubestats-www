@@ -9,13 +9,19 @@
             </p>
         <h2>Acknowledgements</h2>
             <p>
-                TubeStats is a collaboration between the <a href="https://publicinfrastructure.org" target="_blank" rel="noopener noreferrer">Initiative for Digital Public Infrastructure</a> (iDPI) at the University of Massachusetts Amherst and the <a href="https://mediacloud.org" target="_blank" rel="noopener noreferrer">Media Cloud</a> project. This site is being developed by Kevin Zheng, research fellow at the Initiative for Digital Public Infrastructure.
+                TubeStats is a collaboration between the <a href="https://publicinfrastructure.org" target="_blank" rel="noopener noreferrer">Initiative for Digital Public Infrastructure</a> (iDPI) at the University of Massachusetts Amherst and the <a href="https://mediacloud.org" target="_blank" rel="noopener noreferrer">Media Cloud</a> project.
             </p>
             <p>
-                Ryan McGrady, researcher at Media Cloud, led the writing of <a href="https://journalqd.org/article/view/4066" target="_blank" rel="noopener noreferrer">Dialing for Videos: A Random Sample of YouTube</a>, with contributions from Kevin Zheng, Rebecca Curran, Jason Baumgartner, and Ethan Zuckerman.
+                Kevin Zheng, research fellow at the Initiative for Digital Public Infrastructure, is developing and maintaining this site.
+            </p>
+            <p>
+                Ryan McGrady, researcher at Media Cloud, led the paper <a href="https://journalqd.org/article/view/4066" target="_blank" rel="noopener noreferrer">Dialing for Videos: A Random Sample of YouTube</a>, with contributions from Kevin Zheng, Rebecca Curran, Jason Baumgartner, and Ethan Zuckerman.
             </p>
             <p>
                 David Harper, from iDPI's development partner <a href="https://pandastrike.com/" target="_blank" rel="noopener noreferrer">Panda Strike</a>, provided technical expertise to quickly bring this project to life.
+            </p>
+            <p>
+                <a href="https://github.com/iDPI-Umass/tubestats-www" target="_blank" rel="noopener noreferrer">View source code here</a>
             </p>
         <h2>Resources</h2>
         <h2>Background</h2>
