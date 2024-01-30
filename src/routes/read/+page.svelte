@@ -1,5 +1,11 @@
 <main>
     <section class="tube-copy">
+        <h1>Read our paper</h1>
+        <ul>
+            <li>
+                <p><a href="https://journalqd.org/article/view/4066" target="_blank" rel="noopener noreferrer">Dialing for Videos: A Random Sample of YouTube</a> in <em>Journal of Quantitative Description: Digital Media</em>, Vol. 3 (December 2023), by Ryan McGrady, Kevin Zheng, Rebecca Curran, Jason Baumgartner, Ethan Zuckerman</p>
+            </li>
+        </ul>
         <h1>Read our other work</h1>
         <ul>
             <li>
