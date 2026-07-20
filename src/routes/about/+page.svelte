@@ -7,7 +7,7 @@
             <img src="tubestats.png">
         </div>
             <p>
-                TubeStats is an interactive dashboard that provides users with up-to-date information about YouTube based on random sampling. We periodically create a random sample of YouTube big enough to find basic statistics about the site like how many videos it hosts, how many are categorized as music or games, and how many views videos get on average. This is fundamental information about one of the most important websites in the world, and the sort of data that researchers, journalists, and others need in order to properly study the content YouTube hosts.
+                TubeStats is an interactive dashboard that provides users with information about YouTube based on random sampling. We periodically create a random sample of YouTube big enough to find basic statistics about the site like how many videos it hosts, how many are categorized as music or games, and how many views videos get on average. This is fundamental information about one of the most important websites in the world, and the sort of data that researchers, journalists, and others need in order to properly study the content YouTube hosts.
             </p>
             <p>
                 This site is an outgrowth of a long research project in the <a href="https://publicinfrastructure.org" target="_blank" rel="noopener noreferrer">Initiative for Digital Public Infrastructure</a> at the University of Massachusetts Amherst. We wanted to study certain kinds of content on YouTube and quickly realized it was impossible to contextualize findings because there was no way to produce a truly random sample of YouTube to use as a basis for comparison.
@@ -23,6 +23,9 @@
             </p>
             <p>
                 By the time we published our paper, however, the data was already a year old. We estimate that more than three billion videos had been uploaded in the interim. We could publish papers with periodic updates, but the timeline of academic publishing is long and people need access to current data. Furthermore, the sampling method we developed for that paper is effective, but too slow and resource intensive to reproduce on a timely basis. For those reasons, we used our paper to validate a second method called "Random Prefix Sampling," proposed by another team <a href="https://doi.org/10.1145/2068816.2068851" target="_blank" rel="noopener noreferrer">back in 2011</a>. It relies on an odd mechanism to work and has more limitations, but we found that a sample it produced was similar enough to ours to be considered random enough for research purposes. With a validated faster method, we are able to provide regular updates via TubeStats.
+            </p>
+            <p>
+                For other work building on this method, see the <a href="/read">Read More</a> page.
             </p>
     </section>
 
