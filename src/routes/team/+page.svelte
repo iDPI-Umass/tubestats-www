@@ -9,7 +9,7 @@
                 TubeStats is a project from the <a href="https://publicinfrastructure.org" target="_blank" rel="noopener noreferrer">Initiative for Digital Public Infrastructure</a> (iDPI) at the University of Massachusetts Amherst.
             </p>
             <p>
-                Kevin Zheng, research fellow at the Initiative for Digital Public Infrastructure, is developing and maintaining this website.
+                It was initially developed by iDPI research affiliate Kevin Zheng, with subsequent maintenance by iDPI researcher Vikramaditya Jaisingh.
             </p>
             <p>
                 Ryan McGrady, senior researcher at the Initiative for Digital Public Infrastructure, led the paper <a href="https://journalqd.org/article/view/4066" target="_blank" rel="noopener noreferrer">Dialing for Videos: A Random Sample of YouTube</a>, with contributions from Kevin Zheng, Rebecca Curran, Jason Baumgartner, and Ethan Zuckerman.
